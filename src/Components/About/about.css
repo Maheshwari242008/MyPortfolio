@@ -1,0 +1,13 @@
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90vh;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+
+
+

@@ -1,0 +1,102 @@
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.left,
+.right{
+    flex: 1;
+    min-width: 300px;
+}
+
+.left{
+    padding: 2rem;
+    background: #151515;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255,255,0,0.15);
+}
+
+.left h1{
+    color: yellow;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contactInfo p{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.contactInfo strong{
+    color: yellow;
+    line-height:2;
+}
+
+.right{
+    padding: 2rem;
+    background: #151515;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255,255,0,0.15);
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contactForm input,
+.contactForm textarea{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #1f1f1f;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus{
+    border-color: yellow;
+}
+
+.contactForm textarea{
+    resize: none;
+}
+
+.contactForm button{
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background: yellow;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contactForm button:hover{
+    background: #00aaff;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.tt{
+    line-height:1.7;
+}
+
+.text{
+    margin-bottom:15px;
+}

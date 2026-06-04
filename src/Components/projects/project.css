@@ -1,0 +1,77 @@
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    color: white;
+}
+
+.project{
+    text-align: center;
+}
+
+.project h1{
+    color: yellow;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+/* .project > span{
+    color: #bdbdbd;
+    font-size: 1.1rem;
+} */
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+
+}
+
+.proj{
+    width: 260px;
+    min-height: 340px;
+    background: #151515;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255,255,0,0.15);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.proj:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255,255,0,0.4);
+}
+
+.proj span{
+    display: block;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.proj p{
+    color: #d1d1d1;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.proj a{
+    display: inline-block;
+    background: yellow;
+    color: black;
+     margin-top: auto;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.proj a:hover{
+    background: #00aaff;
+    color: white;
+}

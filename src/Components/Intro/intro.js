@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css';
-import bg from '../../assets/mahiii.webp'
+import bg from '../../assets/mahi.jpg'
 const Intro = () => {
   return (
     <section id="intro">
@@ -23,7 +23,8 @@ const Intro = () => {
             </p>
         </div>
 
-        <img src={bg} alt="profile" className="bg"/>
+        <div className="photo"> <img src={bg} alt="profile" className="bg"/></div>
+       
     </section>
   )
 }

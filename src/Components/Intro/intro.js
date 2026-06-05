@@ -22,11 +22,8 @@ const Intro = () => {
                 and solving real-world problems through code.
             </p>
         </div>
-
         <div className="photo"> <img src={bg} alt="profile" className="bg"/></div>
-       
     </section>
   )
 }
-
 export default Intro

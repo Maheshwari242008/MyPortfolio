@@ -43,28 +43,49 @@
     color: #cfcfcf;
     max-width: 600px;
 }
-
-
 img:hover{
     transform: scale(1.05);
-    
 }   
 
 img{
     border-radius: 20px;
 }
-
 .photo {
     width: 28%;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(30, 30, 30);
-    border-radius: 20px;
+    border-radius: 25px;
     overflow: hidden;
+    
+    /* modern card look */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    
+    /* smooth animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* hover effect on container */
+.photo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(255, 214, 10, 0.15);
+}
+
+/* image inside photo */
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* important: fills properly */
+    border-radius: 25px;
+    /* transition: transform 0.4s ease; */
+}
+
+/* image hover zoom */
+.photo img:hover {
+    transform: scale(1.05);
+}
 .bg {
     width: 100%;
     height: 100%;

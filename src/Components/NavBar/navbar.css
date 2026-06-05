@@ -59,8 +59,8 @@
 
 /* BUTTON */
 .deskTopMenuBtn {
-    background: white;
-    color: black;
+    background-color: #007bff;
+    color:white;
     border: none;
     border-radius: 2rem;
     padding: 0.7rem 1.4rem;

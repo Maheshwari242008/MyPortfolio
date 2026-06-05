@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Personal Portfolio Website
 
 This is my personal portfolio website built using React.js. It showcases my skills, projects, and contact information in a modern, responsive, and interactive design.
@@ -78,3 +79,6 @@ LinkedIn: https://linkedin.com/in/your-profile
 📜 License
 
 This project is open source and available under the MIT License.
+=======
+# MyPortfolio
+>>>>>>> 52730ae6c4e7926769b16a338efeb50a09a0c869
